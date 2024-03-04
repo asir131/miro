@@ -10,7 +10,7 @@ const Brainstorm = () => {
                 <h1 className="Bheader font-bold text-2xl  md:text-5xl mt-10 mb-8">Built for the way you work</h1>
         </div>
         <div className="flex flex-wrap gap-y-3 gap-x-6">
-            <button onClick={()=>setName('Brainstorming')} className='border -solid border-2 p-2 px-4 rounded-full hover:bg-slate-200'>Brainstorming</button>
+            <button onClick={()=>setName('Brainstorming')} className='border-solid border-2 p-2 px-4 rounded-full hover:bg-slate-200'>Brainstorming</button>
             <button onClick={()=>setName('Diagramming')} className='border-solid border-2 p-2 px-4 rounded-full hover:bg-slate-200'>Diagramming</button>
             <button onClick={()=>setName('Meetings & Workshops')} className='border-solid border-2 p-2 px-4 rounded-full hover:bg-slate-200'>Meetings & Workshops </button>
             <button onClick={()=>setName('Events')} className='border-solid border-2 p-2 px-4 rounded-full hover:bg-slate-200'>Scrum Events</button>
