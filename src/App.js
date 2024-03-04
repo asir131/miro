@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Trustedsec from './components/Trustedsec';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Hybridsection from './components/Hybridsection';
+import Integrations from './components/Integrations';
+import Section from './components/Sectionss';
+import Brainstorm from './components/Brainstorm';
+import Buildteams from './components/Buildteams';
+import Lovedby from './components/Lovedby';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App overflow-hidden">
+      <Navbar/>
+      <Hero/>
+      <Trustedsec/>
+      <Hybridsection/>
+      <Integrations/>
+      <Section/>
+      <Brainstorm/>
+      <Buildteams/>
+      <Lovedby/>
+      <Footer/>
     </div>
   );
 }
