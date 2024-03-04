@@ -12,7 +12,7 @@ const Integrations = () => {
                     your tools, <br />
                     close your tabs</h1>
                 <p className="para mt-12 mb-12 md:mr-40">Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love.</p>
-                <a className='text-blue-600 border-b-2 border-blue-600' href="#">Learn more →
+                <a className='text-blue-600 border-b-2 border-blue-600' href="/">Learn more →
                 </a>
         </div>
         

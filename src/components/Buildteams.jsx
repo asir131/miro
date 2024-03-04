@@ -29,7 +29,7 @@ const Brainstorm = () => {
                     <p className='mt-5 md:mt-8 md:mb-8 h-7 flex gap-x-3'>
                     <img src={tik} alt="" />Run engaging design workshops
                     </p>
-                    <a className='text-blue-600 ' href="#">Learn more →
+                    <a className='text-blue-600 ' href="/">Learn more →
                 </a>
                 <div className="img-build mt-20">
                     <img src={div} alt="" />

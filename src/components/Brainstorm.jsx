@@ -24,7 +24,7 @@ const Brainstorm = () => {
                     <p className='md:mt-8 md:mb-8'>
                     Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.
                     </p>
-                    <a className='text-blue-600 ' href="#">Learn more →
+                    <a className='text-blue-600 ' href="/">Learn more →
                 </a>
                 </div>
                 <div className="image-part ">
