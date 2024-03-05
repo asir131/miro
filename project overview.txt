@@ -1,0 +1,22 @@
+In this project I used a fake server db.json for the information of 9th component name Lovedby.jsx. So, I need to use (npm run start-fake-server to fetch the data) at first place then (npm start) to run the project properly.
+
+Component 1 (Navbar.jsx) : In this component, there is a logo and some lists along with some buttons. Here I used a modal in Login button which I got from 'flowbite-react'. Also used react hook useState to operate the modal properly. Then, when the screen goes for a mobile version I used a fontAwsome bar. By clicking that bar, it pops up another modal to show up the lists of navbar.
+
+Component 2 (Hero.jsx) : Just nomral design with Tailwind CSS flex along with some texts, forms, button, and image.
+
+Component 3 (Trustedsec.jsx) : Here I used grid for the images and text parts.
+
+Component 4 (Hybridsection.jsx) : In this component I used grid for the only image and texts.
+
+Component 5 (Integrations.jsx) : Its just a design with image and text.
+
+Component 6 (Sectionss.jsx) : This is a component for only a picture.
+
+Component 7 (Brainstorm.jsx) : In this particular component I used useState hook for the buttons. If someone clicks on the button, it changes the title of the text below.
+ 
+Component 8 (Buildteams.jsx) : This component contains some buttons which will change the background color when the cursor hovers on the buttons. Also a image some texts and a link to learn more.
+
+Component 9 (Lovedby.jsx) : Here I used two hooks from react (useState, useEffect). I used useEffect hook to fetch the datas and images from the fake server db.json. Then, I used useState hook to set the data and displayed them along with some informations on top. 
+
+Component 10 (Trustedsec.jsx) : Footer is the last section of my project, where I used grid for the sections and a background image for the signup portion.
+

@@ -2,9 +2,9 @@ import React from 'react'
 import uxdesign from './imgs/uxdesignwithoutshadow.jpg.png'
 import div from './imgs/div.png'
 import tik from './imgs/tik.png'
-const Brainstorm = () => {
+const Buildteams = () => {
   return (
-    <div className='brainstorming grid grid-flow-cols justify-center mx-10 mt-24'>
+    <div className='Buildteams grid grid-flow-cols justify-center mx-10 mt-24'>
         <div className="brain-header ">
                 <h1 className="Bheader font-bold text-2xl  md:text-5xl mt-10 mb-8">Built for all kinds of teams</h1>
         </div>
@@ -43,4 +43,4 @@ const Brainstorm = () => {
   )
 }
 
-export default Brainstorm
+export default Buildteams
