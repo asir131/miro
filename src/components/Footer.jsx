@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
 <div
       style={{ backgroundImage: `url(${back})` }}
-      className="ml-8 lg:ml-1 bg-cover bg-center sec-three rounded-3xl bg-amber-400 text-black lg:px-8 lg:py-8 p-4 my-6 lg:h-64 w-2/4  lg:w-96"
+      className="ml-8 lg:ml-1 bg-cover bg-center sec-three rounded-3xl bg-amber-400 text-black lg:px-8 lg:py-8 p-4 my-6 lg:h-64 w-3/4  lg:w-96"
     >
       <h2 className="font-extrabold lg:text-xl mb-4">Sign up to our newsletter</h2>
       <p className="lg:font-semibold lg:my-4">

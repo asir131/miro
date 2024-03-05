@@ -36,7 +36,7 @@ const Navbar = () => {
             <FontAwesomeIcon  onClick={() => setOpenMod(true)} className='text-5xl  -mb-10  sm:-mb-0 sm:-translate-x-10 visible lg:invisible' icon={faBars} />
 
             <Modal dismissible show={openMod} onClose={() => setOpenMod(false)}>
-        <Modal.Header>Terms of Service</Modal.Header>
+        <Modal.Header>Services</Modal.Header>
         <Modal.Body>
           <div className="space-y-6">
           <ul className=' justify-between gap-x-4 mt-1.5'>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 <hr />
                 <ul className="lists-right flex gap-x-2 mt-2">
                 <li className='flex mt-2.5 h-6 gap-x-2 font-bold'><img src={earth} alt="" />EN</li>
-                <li className='mt-2.5'>Contact Sales</li>
+                <li className='mt-2.5 ml-4'>Contact Sales</li>
                
                 <button onClick={() => setOpenModal(true)} className='font-semibold ml-4 '>Login</button>
                 <li className='bg-blue-600 text-white p-2.5 pl-5 pr-5 rounded-3xl'>Sign up free →</li></ul>
@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <button onClick={() => setOpenMod(false)}>I accept</button>
+          
           <button color="gray" onClick={() => setOpenMod(false)}>
             Decline
           </button>
