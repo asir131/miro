@@ -1,4 +1,4 @@
-In this project I used a fake server db.json for the information of 9th component name Lovedby.jsx. So, I need to use (npm run start-fake-server to fetch the data) at first place then (npm start) to run the project properly.
+In this project I used a fake server db.json for the information of 9th component name Lovedby.jsx. So, I need to use (npm run start-fake-server to fetch the data) at first place then (npm start) to run the project properly. Without running the localhost:3000 the live link wont fetch the data for that component.
 
 Component 1 (Navbar.jsx) : In this component, there is a logo and some lists along with some buttons. Here I used a modal in Login button which I got from 'flowbite-react'. Also used react hook useState to operate the modal properly. Then, when the screen goes for a mobile version I used a fontAwsome bar. By clicking that bar, it pops up another modal to show up the lists of navbar.
 
