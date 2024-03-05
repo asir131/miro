@@ -17,10 +17,12 @@ const Lovedby = () => {
                 return res.json();
             })
             .then((data) => {
+                console.log('Data:', data);
                 setNotes(data);
                 setLoading(false);
             })
             .catch((error) => {
+                console.error('Error:', error);
                 setError(error.message);
                 setLoading(false);
             });
