@@ -5,17 +5,41 @@ import frog from './imgs/frog.svg.png';
 import docu from './imgs/docu.png';
 const Lovedby = () => {
     const [notes, setNotes] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
     const getAllNotes = () => {
-		fetch(`http://localhost:4000/persons`)
-			.then((res) => res.json())
-			.then((data) => {
-				setNotes(data);
-			});
-	};
+        fetch(`http://localhost:4000/persons`)
+            .then((res) => {
+                if (!res.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return res.json();
+            })
+            .then((data) => {
+                setNotes(data);
+                setLoading(false);
+            })
+            .catch((error) => {
+                setError(error.message);
+                setLoading(false);
+            });
+    };
+
     useEffect(() => {
-		getAllNotes();
-	}, []);
-    console.log(notes);
+        getAllNotes();
+    }, []);
+
+    if (loading) {
+        return <p>Loading...</p>;
+    }
+
+    if (error) {
+        return <p>Error: {error}</p>;
+    }
+
+    
+
   return (
     <div className='mt-10 mb-10 md:mt-40 md:mb-28 grid grid-cols-1 gap-4 justify-items-center'>
         <div className="header-part text-center">
