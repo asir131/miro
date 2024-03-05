@@ -6,7 +6,7 @@ import docu from './imgs/docu.png';
 const Lovedby = () => {
     const [notes, setNotes] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [error] = useState(null);
 
     const getAllNotes = () => {
         fetch(`http://localhost:4000/persons`)
@@ -21,11 +21,7 @@ const Lovedby = () => {
                 setNotes(data);
                 setLoading(false);
             })
-            .catch((error) => {
-                console.error('Error:', error);
-                setError(error.message);
-                setLoading(false);
-            });
+            
     };
 
     useEffect(() => {
